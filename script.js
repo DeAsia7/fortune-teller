@@ -1,6 +1,6 @@
 // jslab 2
 
-function fortuneTeller(name, age) {
+function fortuneTeller() {
     let fortune = "";
 
     console.log("Welcome to Fortune Cookie!")
@@ -13,10 +13,10 @@ function fortuneTeller(name, age) {
     console.log(fortuneTeller(name, age));
     
 if (name.lenght > 7) {
-    fortune += name " will marry late in life.";
+    fortune += name + " will marry late in life.";
 
 } else if (name.length < 5) {
-    fortune += name " will marry within a year.";
+    fortune += name + " will marry within a year.";
 
 } else if (name.lenght >= 5 && name.lenght <= 7) {
     fortune =+ name + " will encounter a once-in-a-lifetime opportunity."
