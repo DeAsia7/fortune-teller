@@ -1,7 +1,7 @@
 // jslab 2
 
 function fortuneTeller(name, age) {
-    let fortune = " ";
+    let fortune = "";
 
     console.log("Welcome to Fortune Cookie!")
 
@@ -13,7 +13,7 @@ function fortuneTeller(name, age) {
     console.log(fortuneTeller(name, age));
     
 if (name.lenght > 7) {
-    fortune += name will marry late in life."
+    fortune += name " will marry late in life.";
 
 } else if (name.length < 5) {
     fortune += name " will marry within a year.";
@@ -29,7 +29,6 @@ if (name[0].toUpperCase() == "R") {
 if (name.includes("i")) {
     fortune += " will fall in love this week."
 }
-
 
 if (age % 2 === 0)  //even number age divide by 2 and no remainder
 {
